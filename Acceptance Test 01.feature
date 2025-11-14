@@ -1,30 +1,26 @@
-Feature: US01 - Registro de nuevos usuarios
+Feature: US01 - Vista general clara 
 
-    Como usuario que busca apoyo emocional,
-    quiero registrarme en la plataforma de Mind Health
-    para poder recibir terapia personalizada desde cualquier lugar.
+    Como visitante, quiero ver una interfaz principal con el nombre, 
+    lema y botones clave, para entender de inmediato el propósito de 
+    la plataforma.
 
-Scenario Outline: Ingresar a la página de registro
-    Given que el usuario accede a la página de inicio
-    And selecciona la opción "Registrarse"
-    When el usuario ingresa los datos de "Nombre", "Edad", "Género", 
-    "Fecha de nacimiento", "Email", "Contraseña" y "Confirmar contraseña"
-    Then el sistema valida la información y envía un correo de confirmación 
-    para completar el registro.
+Scenario Outline: Ver información principal al ingresar
+    Given que el usuario accede a la página principal
+    When carga el sitio web,
+    Then visualiza el logo, el lema y los botones principales sin necesidad de desplazarse.
 
 Example: 
     |Campo               |Datos ingresados         |
-    |Nombre              |Daniel                   |
-    |Edad                |22                       |
+    |Nombre              |Juan                     |
+    |Edad                |21                       |
     |Género              |Masculino                |
-    |Fecha de nacimiento |14/09/2002               |
-    |Email               |danielChavez123@gmail.com|
-    |Contraseña          |danielito2002            |
-    |Confirmar contraseña|danielito2002            |
+    |Fecha de nacimiento |14/07/2003               |
+    |Email               |juanojuanin1234@gmail.com|
+    |Contraseña          |juanitouwu230            |
+    |Confirmar contraseña|juanitouwu230            |
 
-Scenario Outline: Verificación de correo electrónico
-    Given que el usuario recibe un correo de verificación
-    When el usuario haga clic en el enlace de verificación
-    Then el sistema activara la cuenta del usuario y lo redirige a la plataforma
-    para empezar a usarla.
+Scenario Outline: Ver información principal al ingresar
+    Given que el usuario accede a la página principal
+    When carga el sitio web,
+    Then visualiza el logo, el lema y los botones principales sin necesidad de desplazarse.
 
