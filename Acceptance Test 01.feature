@@ -10,17 +10,13 @@ Scenario Outline: Ver información principal al ingresar
     Then visualiza el logo, el lema y los botones principales sin necesidad de desplazarse.
 
 Example: 
-    |Campo               |Datos ingresados         |
-    |Nombre              |Juan                     |
-    |Edad                |21                       |
-    |Género              |Masculino                |
-    |Fecha de nacimiento |14/07/2003               |
-    |Email               |juanojuanin1234@gmail.com|
-    |Contraseña          |juanitouwu230            |
-    |Confirmar contraseña|juanitouwu230            |
+    |Mostrar logo|
+    |Mostrar lema|
+    |Descripción |
+    |Botones principales     |"Reportar"    |
+                             |"Estadísticas"|
+                             |"Panel"       |
+                             |"Alertas"     |
+                             |"About us"    |
 
-Scenario Outline: Ver información principal al ingresar
-    Given que el usuario accede a la página principal
-    When carga el sitio web,
-    Then visualiza el logo, el lema y los botones principales sin necesidad de desplazarse.
 
