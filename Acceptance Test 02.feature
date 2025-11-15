@@ -1,4 +1,4 @@
-Feature: US02 - Acceso rápido a reportes
+Feature: HU-02 - Acceso rápido a reportes
 
    Como usuario interesado, 
    quiero acceder fácilmente a la sección de reportes desde la página principal, 
