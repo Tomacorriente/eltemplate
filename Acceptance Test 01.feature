@@ -1,4 +1,4 @@
-Feature: US01 - Vista general clara 
+Feature: HU-01 - Vista general clara 
 
     Como visitante, quiero ver una interfaz principal con el nombre, 
     lema y botones clave, para entender de inmediato el propósito de 
