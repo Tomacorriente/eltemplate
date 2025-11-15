@@ -13,7 +13,6 @@ Example: INPUT
     |El usuario ingresa al boton  "Reportes"|
 
 Example: OUTPUT
-    |Reportes|
     |Modulo de reportes|
     |Títulos         |"Reportes de grietas"|
                      |"Reportes de ruidos" |
