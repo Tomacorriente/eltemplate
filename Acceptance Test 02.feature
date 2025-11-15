@@ -9,8 +9,10 @@ Scenario Outline: Acceder a la sección de reportes
     When hace clic en “Reportes”,
     Then el sistema lo redirige correctamente al módulo de reportes. 
 
-Example:
-    |Campo     |Datos ingresados         |
-    |Email     |danielChavez123@gmail.com|
-    |Contraseña|danielito2002            |
-    
+Example: INPUT
+    |El usuario ingresa al boton  "Reportes"|
+
+Example: OUTPUT
+    |Modulo de reportes|
+    |Títulos         |"Reportes de grietas"|
+                     |"Reportes de ruidos" |
