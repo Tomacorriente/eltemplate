@@ -1,4 +1,4 @@
-Feature: US06 - Conocer el propósito 
+Feature: HU-06 - Conocer el propósito 
 
     Como visitante, 
     quiero leer la misión, visión y objetivos de CoreSafe, 
