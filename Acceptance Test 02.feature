@@ -1,14 +1,13 @@
-Feature: US02 - Inicio de sesión de usuarios registrados
+Feature: US02 - Acceso rápido a reportes
 
-    Como usuario que busca apoyo emocional y estoy registrado
-    quiero poder iniciar sesión en la plataforma 
-    para acceder a mis sesiones de terapia y recursos personalizados.
+   Como usuario interesado, 
+   quiero acceder fácilmente a la sección de reportes desde la página principal, 
+   para ver información actualizada sobre incidentes o reportes ciudadanos. 
 
-Scenario Outline: Acceder al formulario de inicio de sesión
-    Given que el usuario accede a la página de inicio
-    And selecciona la opción "Iniciar sesión"
-    When ingresa su "Email" y "Contraseña" correctamente
-    Then el sistema valida las credenciales y deja iniciar sesión.
+Scenario Outline: Acceder a la sección de reportes 
+    Given que el usuario se encuentra en la página principal, 
+    When hace clic en “Reportes”,
+    Then el sistema lo redirige correctamente al módulo de reportes. 
 
 Example:
     |Campo     |Datos ingresados         |
