@@ -1,4 +1,4 @@
-Feature: US04 - Visual de impacto 
+Feature: HU-04 - Visual de impacto 
 
     Como visitante nuevo, 
     quiero visualizar una imagen representativa del propósito del proyecto, 
