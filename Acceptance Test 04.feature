@@ -9,9 +9,8 @@ Scenario Outline: Visualización correcta de imagen
     When carga la página principal, 
     Then la imagen de portada se adapta al tamaño de pantalla sin recortes ni distorsión.
 
-Example: 
-    |Mostrar      |Imagen o gráfico                                         |
+Example: INPUT
+    |El usuario ingresa accede desde un dispositivo movil|
 
-
-
-
+Example: OUTPUT
+    |Cargar| Imagen      |
