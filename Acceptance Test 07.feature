@@ -1,4 +1,4 @@
-Feature: HU-7 - Equipo de trabajo
+Feature: HU-07 - Equipo de trabajo
 
     Como usuario interesado
     quiero acceder fácilmente a la sección de reportes desde la página principal
